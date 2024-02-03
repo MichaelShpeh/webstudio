@@ -1,0 +1,26 @@
+:root {
+    --section-color: #2F303A;
+    --workers-color: #757575;
+    --button-color: #2196F3;
+    --text-color: #212121;
+}
+
+button {
+    background-color: var(--button-color);
+}
+
+.section {
+    background-color: var(--section-color);
+}
+
+.workers h3 {
+    color: var(--workers-color);
+}
+
+ul~p {
+    color: var(--text-color);
+}
+
+body {
+    font-family: "Roboto";
+}
