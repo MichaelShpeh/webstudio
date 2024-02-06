@@ -21,7 +21,46 @@ ul~p {
     color: var(--text-color);
 }
 
-body {
+nav {
     font-family: "Roboto";
+    font-weight: 500;
+}
 
+a[href="/"] {
+    font-family: "Raleway";
+}
+
+.section {
+    font-family: "Roboto";
+    font-weight: 900;
+}
+
+section h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+img+p {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+address ul {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+p+h3 {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+li+h3 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+h3+p {
+    font-family: "Roboto";
+    font-weight: 400;
 }
