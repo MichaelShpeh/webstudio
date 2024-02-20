@@ -1,0 +1,34 @@
+:root {
+    --main-color: #212121;
+    --portfolios-color: #757575;
+    --back-color: #F5F4FA;
+    --backimg-color: #EEEEEE;
+}
+
+a[href="/"] {
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.portfolios {
+    font-family: "Roboto";
+    font-family: 400;
+}
+
+img h2 {
+    color: var(--main-color);
+}
+
+img+h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+h2+p {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+h2+p {
+    color: var(--portfolios-color);
+}
