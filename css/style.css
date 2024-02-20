@@ -6,11 +6,15 @@
     --hover-color: #2196F3;
 }
 
-button {
+
+
+.button {
     background-color: var(--button-color);
+    width: 216px;
+    height: 50px;
 }
 
-.section {
+.hero {
     background-color: var(--section-color);
 }
 
@@ -18,20 +22,21 @@ button {
     color: var(--workers-color);
 }
 
-ul~p {
+.list-p {
     color: var(--text-color);
 }
 
-nav {
+.header-conteiner-nav {
     font-family: "Roboto";
     font-weight: 500;
 }
 
 a[href="/"] {
     font-family: "Raleway";
+    font-weight: 700;
 }
 
-.section {
+.section-h1 {
     font-family: "Roboto";
     font-weight: 900;
 }
@@ -41,27 +46,24 @@ section h2 {
     font-weight: 700;
 }
 
-img+p {
+.workers-h2-item p {
     font-family: "Roboto";
     font-weight: 500;
 }
 
-address ul {
+.underworkers {
     font-family: "Roboto";
     font-weight: 400;
 }
 
-p+h3 {
-    font-family: "Roboto";
-    font-weight: 400;
-}
 
-li+h3 {
+
+/* li+h3 { 
     font-family: "Roboto";
     font-weight: 700;
-}
+ }  */
 
-h3+p {
+.list-p {
     font-family: "Roboto";
     font-weight: 400;
 }
@@ -76,6 +78,67 @@ h3+p {
     color: white;
 }
 
-.mainlist-sites :hover {
+.header-mainlist-sites :hover {
     color: var(--hover-color);
+}
+
+a[href="/."] :hover {
+    color: var(--hover-color);
+}
+
+.active-link {
+    color: var(--hover-color);
+}
+
+.logo {
+    color: var(--hover-color);
+}
+
+.logoblack {
+    color: #212121;
+}
+
+.portfoli {
+    color: var(--workers-color);
+}
+
+.nameofsite {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.portfoli {
+    font-family: "Roboto";
+    font-weight: 400
+}
+
+.header-conteiner a {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.button :active {
+    color: #2196F3;
+}
+
+.all .item {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.footer {
+    background-color: var(--section-color);
+}
+
+.location {
+    color: #ffff;
+}
+
+.list-p {
+    color: var(--workers-color);
+}
+
+.ourwork-atention {
+    font-family: "Roboto";
+    font-weight: 700;
 }
