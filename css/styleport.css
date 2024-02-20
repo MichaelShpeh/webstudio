@@ -3,6 +3,7 @@
     --portfolios-color: #757575;
     --back-color: #F5F4FA;
     --backimg-color: #EEEEEE;
+    --hover-color: #2196F3;
 }
 
 a[href="/"] {
@@ -31,4 +32,8 @@ h2+p {
 
 h2+p {
     color: var(--portfolios-color);
+}
+
+.mainlist-sites :hover {
+    color: var(--hover-color);
 }
