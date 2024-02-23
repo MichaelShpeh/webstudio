@@ -94,13 +94,15 @@
     color: white;
 }
 
-.header-list-item :hover {
+/* a[href="//"] :hover {
     color: var(--button-color)
-}
+    font-family: "Roboto"; 
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        font-family: "Roboto"; 
 
-a[href="/."] :hover {
-    color: var(--button-color)
-}
+} */
 
 .active-link {
     color: var(--button-color)
@@ -119,13 +121,19 @@ a[href="/."] :hover {
 }
 
 .nameofsite {
-    font-family: "Roboto";
+    /* font-family: "Roboto";  */
     font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
 }
 
 .portfoli {
-    font-family: "Roboto";
-    font-weight: 400
+    /* font-family: "Roboto";  */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
 }
 
 .header-conteiner a {
@@ -210,4 +218,12 @@ a[href="/"] {
 .footer {
     width: 1600px;
     height: 252px;
+}
+
+.gmail :hover {
+    /* font-family: "Roboto"; */
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--button-color);
 }
