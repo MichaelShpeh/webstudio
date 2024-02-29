@@ -10,6 +10,7 @@ body {
 }
 
 .button {
+    font-family: "Roboto";
     background-color: var(--button-color);
     font-size: 16px;
     line-height: 1.9;
@@ -96,15 +97,15 @@ body {
     color: var(--button-color)
 }
 
-.conteiner-logo {
+.header-logo {
     color: var(--button-color)
 }
 
-.conteiner-logo-black {
+.header-logo-black {
     color: #000;
 }
 
-.conteiner-logo-white {
+.footer-logo-white {
     color: #fff;
 }
 
@@ -162,7 +163,7 @@ a[href="/"] {
     letter-spacing: 0.03em;
 }
 
-.conteiner-logo-black {
+.header-logo-black {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
