@@ -244,3 +244,11 @@ a[href="/"] {
     letter-spacing: 0.02em;
     color: var(--workers-color);
 }
+
+.header-list-li :hover {
+    color: var(--button-color);
+}
+
+.portfolios-li :hover {
+    color: var(--button-color);
+}
