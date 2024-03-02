@@ -28,7 +28,7 @@ body {
     color: var(--workers-color);
 }
 
-.list-py {
+.list-text {
     /* font-family: "Roboto"; */
     font-weight: 400;
     color: var(--text-color);
@@ -55,7 +55,7 @@ body {
     color: #fff;
 }
 
-.workers-x2 {
+.workers-title {
     /* font-family: "Roboto"; */
     font-weight: 700;
     font-size: 36px;
@@ -63,7 +63,7 @@ body {
     text-align: center;
 }
 
-.workers-pi {
+.workers-text {
     font-family: "Roboto";
     font-weight: 500;
 }
@@ -133,7 +133,7 @@ body {
 }
 
 
-.button :active {
+.button:active {
     color: #2196F3;
 }
 
@@ -143,10 +143,6 @@ body {
 
 .location {
     color: #ffff;
-}
-
-.list-p {
-    color: var(--workers-color);
 }
 
 .ourwork-atention–title {
@@ -166,24 +162,11 @@ body {
     letter-spacing: 0.03em;
 }
 
-.workers-p {
-    /* font-family: "Roboto"; */
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--text-color);
-}
-
 .workers {
     background: #f5f4fa;
 }
 
-.header-mainlist-sites-item:hover {
-    color: var(--button-color);
-}
-
-.portfolios-le-item {
+.portfolios-sites-item {
     /* font-family: "Roboto"; */
     font-weight: 500;
     font-size: 16px;
@@ -196,14 +179,6 @@ body {
 .footer {
     width: 1600px;
     height: 252px;
-}
-
-.phone-number {
-    /* font-family: "Roboto"; */
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: var(--workers-color);
 }
 
 .footer-link {
@@ -224,7 +199,11 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.gmail {
+.header-link:hover {
+    color: var(--button-color);
+}
+
+.contacts-links {
     /* font-family: "Roboto"; */
     font-weight: 500;
     font-size: 14px;
@@ -232,10 +211,10 @@ body {
     color: var(--workers-color);
 }
 
-.portfolios-li:hover {
+.contacts-links:hover {
     color: var(--button-color);
 }
 
-.header-link:hover {
+.portfolios-sites-item-link:hover {
     color: var(--button-color);
 }
