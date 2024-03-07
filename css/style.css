@@ -20,6 +20,8 @@ body {
 /*? header */
 .header {
     background-color: aqua;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-logo-black {
