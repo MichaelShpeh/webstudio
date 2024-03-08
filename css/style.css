@@ -24,6 +24,12 @@ body {
     padding-bottom: 25px;
 }
 
+.head {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
 .header-logo-black {
     font-family: "Raleway";
     font-weight: 700;
@@ -31,20 +37,15 @@ body {
     letter-spacing: 0.03em;
 }
 
-.header-niv {
-    display: inline-block;
-}
-
-.header-mainlist-sites-item {
-    display: inline;
-}
-
-.header-second-list-item {
-    display: inline;
+.header-mainlist-list {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .header-second-list {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .header-link {
@@ -120,6 +121,11 @@ body {
     margin: 0 auto;
 }
 
+.ourwork-list {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .ourwork-atention–title {
     /* font-family: "Roboto"; */
     font-weight: 700;
@@ -130,7 +136,8 @@ body {
 }
 
 .ourwork-list-ourwurk-item {
-    display: inline-block;
+    /* display: flex;
+     justify-content: flex-start; */
 }
 
 .ourwork {
@@ -144,11 +151,16 @@ body {
 }
 
 .images-ourjob-list-item-img {
-    display: inline;
+    /* display: inline; */
 }
 
 .images-ourjob-list-item {
-    display: inline;
+    /* display: inline; */
+}
+
+.images-ourjob-list {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .images-ourjob {
@@ -157,6 +169,12 @@ body {
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
+}
+
+.workers-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .workers-title {
@@ -170,6 +188,9 @@ body {
 .workers-text {
     font-family: "Roboto";
     font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .underworkers–title {
@@ -192,9 +213,9 @@ body {
     height: 648px; */
 }
 
-.workers-title-item {
-    display: inline-block;
-}
+/* .workers-title-item {
+    
+} */
 
 /*? portfolio-main */
 .portfolios-sites-item {
