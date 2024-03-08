@@ -174,7 +174,7 @@ body {
 .workers-list {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .workers-title {
