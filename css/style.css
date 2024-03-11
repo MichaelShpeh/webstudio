@@ -40,13 +40,22 @@ body {
 .header-mainlist-list {
     display: flex;
     justify-content: flex-start;
+    margin-right: 344px;
+}
+
+.header-mainlist-list-item {
+    margin-left: 50px;
 }
 
 .header-second-list {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 344px;
+    /* flex-direction: row;  */
+    /* justify-content: flex-end; */
+    /* margin-left: 344px; */
+}
+
+.header-second-list-item {
+    margin-left: 50px;
 }
 
 .header-link {
@@ -124,6 +133,7 @@ body {
     height: 50px;
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .ourwork-list {
@@ -143,6 +153,7 @@ body {
 .ourwork-list-ourwurk-item {
     /* display: flex;
      justify-content: flex-start; */
+    margin-left: 30px;
 }
 
 .ourwork {
@@ -157,6 +168,7 @@ body {
 
 .images-ourjob-list-item-img {
     /* display: inline; */
+    margin-left: 30px;
 }
 
 .images-ourjob-list-item {
@@ -180,6 +192,7 @@ body {
     display: flex;
     justify-content: space-around;
     /* flex-wrap: wrap; */
+
 }
 
 .workers-title {
@@ -196,6 +209,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-top: 30px;
 }
 
 .underworkers–title {
@@ -204,6 +218,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-top: 10px;
 }
 
 .underworkers-title {
@@ -279,6 +294,7 @@ body {
 
 .location {
     color: #ffff;
+    margin-top: 20px;
 }
 
 .footer {
@@ -293,6 +309,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
 }
 
 .footer-phone-number {
@@ -302,4 +319,5 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
 }
