@@ -20,8 +20,6 @@ body {
 /*? header */
 .header {
     background-color: aqua;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .head {
@@ -35,16 +33,25 @@ body {
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 
 .header-mainlist-list {
     display: flex;
     justify-content: flex-start;
-    margin-right: 344px;
 }
 
 .header-mainlist-list-item {
-    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header-mainlist-list-item:last-child {
+    margin-right: 0px;
+}
+
+.header-niv {
+    margin-right: 344px;
+    display: flex;
 }
 
 .header-second-list {
@@ -55,7 +62,11 @@ body {
 }
 
 .header-second-list-item {
-    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header-second-list-item:last-child {
+    margin-right: 0px;
 }
 
 .header-link {
@@ -109,6 +120,12 @@ body {
     padding-bottom: 200px;
 }
 
+.heromain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .section-x1 {
     /* font-family: "Roboto"; */
     font-weight: 900;
@@ -116,8 +133,12 @@ body {
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /* text-align: center; */
+    text-align: center;
     color: #fff;
+    width: 696px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
 }
 
 .button {
@@ -126,7 +147,7 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    /* text-align: center; */
+    text-align: center;
     color: #fff;
     font-weight: 700;
     width: 216px;
@@ -153,7 +174,11 @@ body {
 .ourwork-list-ourwurk-item {
     /* display: flex;
      justify-content: flex-start; */
-    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ourwork-list-ourwurk-item:last-of-type {
+    margin: 0px;
 }
 
 .ourwork {
@@ -166,13 +191,17 @@ body {
     padding-bottom: 94px;
 }
 
-.images-ourjob-list-item-img {
-    /* display: inline; */
-    margin-left: 30px;
+.image {
+    display: flex;
+    flex-direction: column;
 }
 
 .images-ourjob-list-item {
-    /* display: inline; */
+    margin-right: 30px;
+}
+
+.images-ourjob-list-item:last-of-type {
+    margin-right: 0px;
 }
 
 .images-ourjob-list {
@@ -186,6 +215,7 @@ body {
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .workers-list {
@@ -201,6 +231,7 @@ body {
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .workers-text {
@@ -219,6 +250,7 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .underworkers-title {
@@ -231,6 +263,10 @@ body {
     padding-bottom: 94px;
     /* width: 1600px;
     height: 648px; */
+}
+
+.workers-title-item {
+    background-color: #fff;
 }
 
 /* .workers-title-item {
@@ -294,7 +330,6 @@ body {
 
 .location {
     color: #ffff;
-    margin-top: 20px;
 }
 
 .footer {
@@ -309,7 +344,6 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    margin-top: 9px;
 }
 
 .footer-phone-number {
@@ -319,5 +353,17 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list {
+    margin-top: 20px;
+}
+
+.footer-list-item {
     margin-top: 9px;
 }
