@@ -24,9 +24,8 @@ body {
 
 .head {
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
-    justify-content: baseline;
+    align-items: baseline;
 }
 
 .header-logo-black {
@@ -34,7 +33,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
-    margin-right: 93px;
 }
 
 .header-mainlist-list {
@@ -53,6 +51,8 @@ body {
 .header-niv {
     margin-right: 344px;
     display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .header-second-list {
@@ -60,6 +60,8 @@ body {
     /* flex-direction: row;  */
     /* justify-content: flex-end; */
     /* margin-left: 344px; */
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .header-second-list-item {
@@ -90,6 +92,7 @@ body {
     font-size: 26px;
     letter-spacing: 0.03em;
     /* display: inline-block; */
+    margin-right: 93px;
 }
 
 .header-logo-black {
@@ -102,8 +105,11 @@ body {
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--workers-color);
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 50px;
+}
+
+.linke {
+    margin-right: 0;
 }
 
 .contacts-links:hover {
@@ -125,9 +131,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: baseline;
 }
 
-.section-x1 {
+.hero-title {
     /* font-family: "Roboto"; */
     font-weight: 900;
     font-size: 44px;
@@ -137,9 +144,6 @@ body {
     text-align: center;
     color: #fff;
     width: 696px;
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
 }
 
 .button {
@@ -170,6 +174,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     /* display: block; */
+    margin-bottom: 10px;
 }
 
 .ourwork-list-ourwurk-item {
@@ -221,7 +226,7 @@ body {
 
 .workers-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
 
 }
@@ -268,6 +273,7 @@ body {
 
 .workers-title-item {
     background-color: #fff;
+    border-radius: 0%;
 }
 
 /* .workers-title-item {
@@ -367,4 +373,8 @@ body {
 
 .footer-list-item {
     margin-top: 9px;
+}
+
+.address {
+    margin-top: 0px;
 }
