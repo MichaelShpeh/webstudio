@@ -370,6 +370,10 @@ body {
     margin-top: 9px;
 }
 
+.footer-list-item:first-child {
+    margin-top: 0p;
+}
+
 .address {
-    margin-top: 0px;
+    margin-top: 9px;
 }
