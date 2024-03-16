@@ -20,12 +20,13 @@ body {
 /*? header */
 .header {
     background-color: aqua;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .head {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 
 .header-logo-black {
@@ -37,7 +38,6 @@ body {
 
 .header-mainlist-list {
     display: flex;
-    justify-content: flex-start;
 }
 
 .header-mainlist-sites-item {
@@ -51,17 +51,12 @@ body {
 .header-niv {
     margin-right: 344px;
     display: flex;
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
 
 .header-second-list {
     display: flex;
     /* flex-direction: row;  */
     /* justify-content: flex-end; */
-    /* margin-left: 344px; */
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
 
 .header-second-list-item {
@@ -130,8 +125,8 @@ body {
 .heromain {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .hero-title {
