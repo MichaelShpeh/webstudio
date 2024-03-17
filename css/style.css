@@ -284,6 +284,28 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
+    background: #f5f4fa;
+    margin-right: 8px;
+    width: 130px;
+    height: 38px;
+}
+
+.all {
+    margin-top: 94px;
+}
+
+.portfolios-sites-item:last-child {
+    margin-right: 0px;
+}
+
+.portfolios-sites-item:first-child {
+    width: 73px;
+    height: 38px;
+}
+
+.portfolios {
+    display: flex;
+    justify-content: center;
 }
 
 .portfolios-sites-item-link:hover {
@@ -318,13 +340,20 @@ body {
     /* display: block; */
 }
 
+.works {
+    margin-top: 30px;
+}
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
 .footer-logo-white {
     color: #fff;
 }
-
-/* .portfoli {
-    color: var(--workers-color);
-} */
 
 .footer {
     background-color: var(--section-color);
