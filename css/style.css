@@ -75,6 +75,7 @@ body {
     letter-spacing: 0.02em;
     /* margin-left: 25px;
     margin-right: 25px; */
+    color: var(--text-color);
 }
 
 .header-link:hover {
@@ -344,6 +345,7 @@ body {
 
 .portfolios-sites-item-link {
     border-radius: 4px;
+    color: var(--text-color);
 }
 
 .works-list {
