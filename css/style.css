@@ -38,7 +38,7 @@ body {
 
 .header-mainlist-list {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .header-mainlist-sites-item {
@@ -290,17 +290,31 @@ body {
 /*? portfolio-main */
 .portfolios-sites-item {
     /* font-family: "Roboto"; */
-    font-weight: 500;
+    /* font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
     color: #fff;
-    background: #f5f4fa;
+    background: #f5f4fa; */
     margin-right: 8px;
-    width: 130px;
-    height: 38px;
+}
+
+.portfolios-sites-item-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+}
+
+.portfolios-sites-item-link:hover {
+    color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+    background: #2196f3;
 }
 
 .all {
@@ -311,18 +325,10 @@ body {
     margin-right: 0px;
 }
 
-.portfolios-sites-item:first-child {
-    width: 73px;
-    height: 38px;
-}
-
 .portfolios {
     display: flex;
     justify-content: center;
-}
-
-.portfolios-sites-item-link:hover {
-    color: var(--button-color);
+    margin-bottom: 34px;
 }
 
 .item-nameofsite-title {
@@ -332,6 +338,7 @@ body {
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--text-color);
+    margin-top: 20px;
 }
 
 .item-nameofsite-portfoli {
@@ -341,26 +348,37 @@ body {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--workers-color);
-}
-
-.portfolios-sites-item-link {
-    border-radius: 4px;
-    color: var(--text-color);
+    margin-top: 4px;
 }
 
 .works-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
+    justify-content: space-between;
+    /* gap: 30px; */
 }
 
 .works-list-item {
     border: 1px solid #eee;
-    width: 370px;
-    height: 404px;
     background: #fff;
+    /* margin-right: 30px; */
+    margin-bottom: 30px;
+}
+
+.works-list-item:nth-child(3) {
+    margin-right: 0px;
+}
+
+.works-list-item:nth-child(9) {
+    margin-bottom: 0px;
+}
+
+.works-list-item:nth-child(7) {
+    margin-bottom: 0px;
+}
+
+.works-list-item:nth-child(8) {
+    margin-bottom: 0px;
 }
 
 .footer-logo-white {
