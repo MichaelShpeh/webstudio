@@ -300,7 +300,7 @@ body {
     margin-right: 8px;
 }
 
-.portfolios-sites-item-link {
+.portfolios-button {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -308,7 +308,8 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     background: #f5f4fa;
-    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .portfolios-sites-item-link:hover {
@@ -319,6 +320,7 @@ body {
 
 .all {
     margin-top: 94px;
+    margin-bottom: 94px;
 }
 
 .portfolios-sites-item:last-child {
@@ -339,6 +341,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--text-color);
     margin-top: 20px;
+    margin-left: 24px;
 }
 
 .item-nameofsite-portfoli {
@@ -349,13 +352,13 @@ body {
     letter-spacing: 0.03em;
     color: var(--workers-color);
     margin-top: 4px;
+    margin-left: 24px;
 }
 
 .works-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* gap: 30px; */
+    gap: 30px;
 }
 
 .works-list-item {
@@ -363,6 +366,8 @@ body {
     background: #fff;
     /* margin-right: 30px; */
     margin-bottom: 30px;
+    width: 370px;
+    padding-bottom: 20px;
 }
 
 .works-list-item:nth-child(3) {
