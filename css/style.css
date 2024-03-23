@@ -274,8 +274,6 @@ body {
     background: #f5f4fa;
     padding-top: 94px;
     padding-bottom: 94px;
-    /* width: 1600px;
-    height: 648px; */
 }
 
 .workers-title-item {
@@ -283,20 +281,8 @@ body {
     border-radius: 0 0 4px 4px;
 }
 
-/* .workers-title-item {
-    
-} */
-
 /*? portfolio-main */
 .portfolios-sites-item {
-    /* font-family: "Roboto"; */
-    /* font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: #fff;
-    background: #f5f4fa; */
     margin-right: 8px;
 }
 
