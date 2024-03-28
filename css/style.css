@@ -352,28 +352,9 @@ body {
 }
 
 .works-list-item {
-    border: 1px solid #eee;
+    /* border: 1px solid #eee; */
     background: #fff;
-    /* margin-right: 30px; */
-    margin-bottom: 30px;
-    width: 370px;
-    padding-bottom: 20px;
-}
-
-.works-list-item:nth-child(3) {
-    margin-right: 0px;
-}
-
-.works-list-item:nth-child(9) {
-    margin-bottom: 0px;
-}
-
-.works-list-item:nth-child(7) {
-    margin-bottom: 0px;
-}
-
-.works-list-item:nth-child(8) {
-    margin-bottom: 0px;
+    width: calc((100%-20px)/3);
 }
 
 .footer-logo-white {
