@@ -125,6 +125,16 @@ body {
     padding-bottom: 200px;
 }
 
+/* .heromain::before {
+    width: 1600px;
+    height: 600px;
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: fill;
+    background-image: url(../images/шапка.jpg);
+} */
+
 .heromain {
     display: flex;
     flex-direction: column;
@@ -158,6 +168,8 @@ body {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .ourwork-list {
@@ -308,6 +320,7 @@ body {
 .workers-title-item {
     background-color: #fff;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 /*? portfolio-main */
@@ -384,6 +397,8 @@ body {
     /* border: 1px solid #eee; */
     background: #fff;
     width: calc((100%-20px)/3);
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
 }
 
 .footer-logo-white {
