@@ -131,7 +131,7 @@ body {
     content: "";
     display: block;
     background-repeat: no-repeat;
-    background-position: fill;
+    background-position: cover;
     background-image: url(../images/шапка.jpg);
 } */
 
@@ -163,13 +163,17 @@ body {
     text-align: center;
     color: #fff;
     font-weight: 700;
-    width: 216px;
-    height: 50px;
     display: block;
     margin: 0 auto;
     margin-top: 30px;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.button:active {
+    background: var(--button-color);
+    color: #fff;
 }
 
 .ourwork-list {
@@ -399,6 +403,7 @@ body {
     width: calc((100%-20px)/3);
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     background: #fff;
+    padding-bottom: 20px;
 }
 
 .footer-logo-white {
