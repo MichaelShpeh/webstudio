@@ -348,7 +348,7 @@ body {
     border: none;
 }
 
-.portfolios-button:hover {
+.portfolios-button:active {
     color: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
     background: #2196f3;
@@ -400,10 +400,13 @@ body {
 .works-list-item {
     /* border: 1px solid #eee; */
     background: #fff;
-    width: calc((100%-20px)/3);
-    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    width: calc((100%-60px)/3);
     background: #fff;
     padding-bottom: 20px;
+}
+
+.works-list-item:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .footer-logo-white {
