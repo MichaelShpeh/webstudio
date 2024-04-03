@@ -125,15 +125,16 @@ body {
     padding-bottom: 200px;
 }
 
-/* .heromain::before {
+.hero::before {
     width: 1600px;
     height: 600px;
     content: "";
     display: block;
     background-repeat: no-repeat;
-    background-position: cover;
-    background-image: url(../images/шапка.jpg);
-} */
+    background-position: center;
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+}
 
 .heromain {
     display: flex;
