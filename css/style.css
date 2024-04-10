@@ -119,20 +119,19 @@ body {
 }
 
 /*? main */
+
+.heromain {}
+
 .hero {
-    /* background-color: var(--section-color); */
     padding-top: 200px;
     padding-bottom: 200px;
     content: '';
     display: block;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../images/img1.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4)), url(../images/img1.jpg);
     background-size: cover;
-}
-
-.heromain::before {
-    background: rgba(47, 48, 58, 0.4);
+    background-color: var(--section-color);
 }
 
 .heromain {
@@ -152,6 +151,7 @@ body {
     text-align: center;
     color: #fff;
     width: 696px;
+    /* linear-gradient(to right, rgba(47, 48, 58, 0.4)) */
 }
 
 .button {
