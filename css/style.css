@@ -4,6 +4,7 @@
     --button-color: #2196F3;
     --text-color: #212121;
     --background-color: #f5f4fa;
+    --color-background-overlay-img: url(../images/imgoverlay.jpg);
 }
 
 body {
@@ -120,16 +121,14 @@ body {
 
 /*? main */
 
-.heromain {}
+
 
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    content: '';
-    display: block;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(48, 47, 47, 0.4), rgba(49, 47, 47, 0.4)), url(../images/img1.jpg);
+    background-image: linear-gradient(right, var(--color-background-overlay-img), var(--color-background-overlay-img)), url(../images/img1.jpg);
     background-size: cover;
     background-color: var(--section-color);
 }
