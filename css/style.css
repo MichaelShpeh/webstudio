@@ -4,7 +4,7 @@
     --button-color: #2196F3;
     --text-color: #212121;
     --background-color: #f5f4fa;
-    --color-background-overlay-img: url(../images/imgoverlay.jpg);
+    --color-background-overlay-img: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -128,7 +128,10 @@ body {
     padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(right, var(--color-background-overlay-img), var(--color-background-overlay-img)), url(../images/img1.jpg);
+    background-image:
+        linear-gradient(var(--color-background-overlay-img),
+            var(--color-background-overlay-img)),
+        url(../images/img1.jpg);
     background-size: cover;
     background-color: var(--section-color);
 }
