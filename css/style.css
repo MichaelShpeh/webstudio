@@ -213,19 +213,19 @@ body {
 }
 
 .ourwork-list-ourwurk-item:nth-child(1)::before {
-    background-image: url(../images/antenna.svg);
+    background-image: url(../svg/antenna.svg);
 }
 
 .ourwork-list-ourwurk-item:nth-child(2)::before {
-    background-image: url(../images/clock.svg);
+    background-image: url(../svg/clock.svg);
 }
 
 .ourwork-list-ourwurk-item:nth-child(3)::before {
-    background-image: url(../images/diagram.svg);
+    background-image: url(../svg/diagram.svg);
 }
 
 .ourwork-list-ourwurk-item:nth-child(4)::before {
-    background-image: url(../images/astronaut.svg);
+    background-image: url(../svg/astronaut.svg);
 }
 
 .ourwork-list-ourwurk-item:last-of-type {
