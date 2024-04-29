@@ -66,6 +66,14 @@ body {
     margin-right: 50px;
 }
 
+.header-second-list-item::before {
+    background-image: url(../svg/envelope.svg);
+    content: '';
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+}
+
 .header-second-list-item:last-child {
     margin-right: 0px;
 }
@@ -107,7 +115,7 @@ body {
     margin-right: 50px;
 }
 
-.linke {
+.contacts-links {
     margin-right: 0;
 }
 
@@ -213,19 +221,23 @@ body {
 }
 
 .ourwork-list-ourwurk-item:nth-child(1)::before {
-    background-image: url(../svg/antenna.svg);
+    background-image: url(../svg/antena.svg);
+    content: '';
 }
 
 .ourwork-list-ourwurk-item:nth-child(2)::before {
     background-image: url(../svg/clock.svg);
+    content: '';
 }
 
 .ourwork-list-ourwurk-item:nth-child(3)::before {
     background-image: url(../svg/diagram.svg);
+    content: '';
 }
 
 .ourwork-list-ourwurk-item:nth-child(4)::before {
     background-image: url(../svg/astronaut.svg);
+    content: '';
 }
 
 .ourwork-list-ourwurk-item:last-of-type {
@@ -315,6 +327,22 @@ body {
 
 .underworkers-title {
     color: var(--workers-color);
+}
+
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.social-media-list-item:not(4) {
+    margin-right: 10px;
+}
+
+.social-media-list-item:hover {
+    color: white;
+    background-color: var(--button-color);
 }
 
 .workers {
