@@ -345,6 +345,34 @@ body {
     background-color: var(--button-color);
 }
 
+.clients {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.inside-clients {
+    margin: 0 auto;
+}
+
+.permanent-clients {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-list-item {
+    margin-right: 30px;
+}
+
 .workers {
     background: #f5f4fa;
     padding-top: 94px;
