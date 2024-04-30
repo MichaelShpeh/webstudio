@@ -180,6 +180,7 @@ body {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
     padding: 10px 32px;
+    cursor: pointer;
 }
 
 .button:active {
@@ -375,6 +376,10 @@ body {
     border-radius: 4px;
     width: 170px;
     height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .clients-list-item:hover {
@@ -383,6 +388,10 @@ body {
     width: 170px;
     height: 92px;
     cursor: pointer;
+}
+
+.svg {
+    color: #AFB1B8;
 }
 
 .workers {
@@ -496,6 +505,10 @@ body {
     padding-bottom: 60px;
 }
 
+.footer-list {
+    margin-right: 70px;
+}
+
 .footer-link {
     /* font-family: "Roboto"; */
     font-weight: 400;
@@ -534,8 +547,23 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #fff;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links-item {
+    margin-right: 10px;
+}
+
+.social-links-item:hover {
+    color: #fff;
+    background-color: #2196f3;
 }
 
 .address {
     margin-top: 20px;
+    display: flex;
 }
