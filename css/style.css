@@ -371,6 +371,18 @@ body {
 
 .clients-list-item {
     margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+
+.clients-list-item:hover {
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    cursor: pointer;
 }
 
 .workers {
@@ -513,6 +525,15 @@ body {
 
 .footer-list-item:first-child {
     margin-top: 0px;
+}
+
+.join-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .address {
