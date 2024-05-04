@@ -62,9 +62,9 @@ body {
     /* justify-content: flex-end; */
 }
 
-.header-second-list-item {
+/* .header-second-list-item {
     margin-right: 50px;
-}
+} */
 
 .header-svg {
     fill: inherit;
@@ -81,6 +81,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--workers-color);
     display: flex;
+    align-items: center;
     fill: #AFB1B8;
 }
 
