@@ -295,7 +295,10 @@ body {
     display: flex;
     justify-content: space-between;
     /* flex-wrap: wrap; */
+}
 
+.workers-list-item {
+    width: 428px;
 }
 
 .workers-title {
@@ -334,36 +337,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 30px;
 }
 
 .social-media-list-item {
     margin-right: 10px;
-    fill: #AFB1B8;
     width: 44px;
     height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    fill: #AFB1B8;
 }
 
 .social-media-list-item:hover {
     fill: #fff;
     background-color: var(--button-color);
-    border-radius: 50px;
-}
-
-.svgs {
-    fill: #AFB1B8;
-}
-
-.svgs:hover {
-    fill: #fff;
 }
 
 .social-media-list-link {
-    fill: #AFB1B8;
+    fill: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clients {
