@@ -64,14 +64,11 @@ body {
 
 .header-second-list-item {
     margin-right: 50px;
+    /* display: flex; */
 }
 
-.header-second-list-item::before {
-    background-image: url(../svg/envelope.svg);
-    content: '';
-    background-size: auto;
-    width: 20px;
-    height: 20px;
+.header-svg {
+    fill: #AFB1B8;
 }
 
 .header-second-list-item:last-child {
