@@ -64,15 +64,29 @@ body {
 
 .header-second-list-item {
     margin-right: 50px;
-    /* display: flex; */
 }
 
 .header-svg {
-    fill: #AFB1B8;
+    fill: inherit;
 }
 
 .header-second-list-item:last-child {
     margin-right: 0px;
+}
+
+.contacts-links {
+    /* font-family: "Roboto"; */
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--workers-color);
+    display: flex;
+    fill: #AFB1B8;
+}
+
+.contacts-links:hover {
+    color: var(--button-color);
+    fill: var(--button-color);
 }
 
 .header-link {
@@ -101,23 +115,6 @@ body {
 
 .header-logo-black {
     color: #000;
-}
-
-.contacts-links {
-    /* font-family: "Roboto"; */
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: var(--workers-color);
-    margin-right: 50px;
-}
-
-.contacts-links {
-    margin-right: 0;
-}
-
-.contacts-links:hover {
-    color: var(--button-color);
 }
 
 .active-link {
