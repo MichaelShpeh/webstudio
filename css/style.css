@@ -51,8 +51,8 @@ body {
     margin-right: 0px;
 }
 
-.header-niv {
-    margin-right: 344px;
+.header-nav {
+    margin-right: 318px;
     display: flex;
 }
 
@@ -60,14 +60,18 @@ body {
     display: flex;
     /* flex-direction: row;  */
     /* justify-content: flex-end; */
+    gap: 30px;
 }
 
-/* .header-second-list-item {
-    margin-right: 50px;
-} */
+.header-second-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .header-svg {
     fill: inherit;
+    margin-right: 10px;
 }
 
 .header-second-list-item:last-child {
