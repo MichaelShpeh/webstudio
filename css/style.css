@@ -396,6 +396,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    fill: #AFB1B8;
 
 }
 
@@ -405,14 +406,6 @@ body {
     width: 170px;
     height: 92px;
     cursor: pointer;
-    color: #2196F3;
-}
-
-.svg {
-    fill: #AFB1B8;
-}
-
-.svg:hover {
     fill: #2196F3;
 }
 
