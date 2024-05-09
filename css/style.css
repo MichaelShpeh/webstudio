@@ -376,12 +376,8 @@ body {
 }
 
 .clients {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
-
-.inside-clients {
-    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .permanent-clients {
@@ -546,6 +542,8 @@ body {
 .foot {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+
 }
 
 .footer-list-item {
@@ -591,4 +589,5 @@ body {
 .address {
     margin-top: 20px;
     display: flex;
+    font-style: normal;
 }
