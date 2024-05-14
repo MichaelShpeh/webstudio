@@ -270,6 +270,23 @@ body {
 
 .images-ourjob-list-item {
     margin-right: 30px;
+    position: relative;
+}
+
+.images-text {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: rgba(47, 48, 58, 0.8);
 }
 
 .images-ourjob-list-item:last-of-type {
