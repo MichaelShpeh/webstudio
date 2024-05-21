@@ -210,10 +210,11 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 400px;
-    min-height: 300px;
+    min-width: 582px;
+    min-height: 581px;
+    border-radius: 4px;
     padding: 15px;
-    background-color: skyblue;
+    background-color: #fff;
     transform: translate(-50%, -50%);
 }
 
@@ -226,6 +227,15 @@ body {
 .ourwork-list {
     display: flex;
     justify-content: flex-start;
+}
+
+.modal-text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--text-color);
 }
 
 .ourwork–title {
@@ -634,6 +644,7 @@ body {
     margin-right: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .social-links-item:hover {
