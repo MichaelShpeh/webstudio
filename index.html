@@ -57,19 +57,27 @@
                 <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <button class="btn" data-modal-close>Закрити</button>
+                        <button class="btn" data-modal-close>
+                            <svg class="close-button" width="30" height="30">
+                                <use href="./images/symbol-defs.svg#close-black"></use>
+                            </svg>
+                        </button>
                         <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
                         <form>
-                            <label class="modal-label" for="">Ім'я</label>
-                            <input class="modal-input" type="text" required>
-                            <label class="modal-label" for="">Телефон</label>
-                            <input class="modal-input" type="text" required>
-                            <label class="modal-label" for="">Пошта</label>
-                            <input class="modal-input" type="text" required>
-                            <label class="modal-label" for="">Коментар</label>
-
-                            <input class="" type="checkbox">
-                            <label class="" for="">Погоджуюся з розсилкою та приймаю Умови договору</label>
+                            <label class="modal-label" for="username">Ім'я</label>
+                            <input class="modal-input" type="text" id="username" required>
+                            <label class="modal-label" for="userphone">Телефон</label>
+                            <input class="modal-input" type="text" id="userphone" required>
+                            <label class="modal-label" for="usermail">Пошта</label>
+                            <input class="modal-input" type="text" id="usermail" required>
+                            <label class="modal-label" for="coments">Коментар</label>
+                            <input class="modal-coments" type="text" id="coments" placeholder="Введіть текст" required>
+                            <input class="modal-checkbox" type="checkbox" id="checkbox">
+                            <label class="checkbox-label" for="checkbox">Погоджуюся з розсилкою та приймаю
+                                <a href="/">
+                                    <span class="modal-span">Умови договору</span>
+                                </a>
+                            </label>
                             <button class="modal-send-button">Відправити</button>
                         </form>
                     </div>
@@ -393,6 +401,16 @@
                     </li>
                 </ul>
             </address>
+            <div class="">
+                <p class="">
+                    Підпишіться на розсилку
+                </p>
+                <form class="">
+                    <input class="" type="text" id="rozsilka" placeholder="E-mail">
+                    <label class="" for="rozsilka"></label>
+                    <button class=""></button>
+                </form>
+            </div>
         </div>
     </footer>
     <script src="./js/modal.js"></script>

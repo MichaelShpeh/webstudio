@@ -264,6 +264,18 @@ body {
     color: var(--text-color);
 }
 
+.close-button {
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-span {
+    text-decoration: underline;
+}
+
 .ourwork-list {
     display: flex;
     justify-content: flex-start;
