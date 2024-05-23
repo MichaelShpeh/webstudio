@@ -689,6 +689,7 @@ body {
 .social-links {
     display: flex;
     justify-content: space-between;
+    margin-right: 93px;
 }
 
 .social-links-item {
@@ -713,4 +714,68 @@ body {
     margin-top: 20px;
     display: flex;
     font-style: normal;
+}
+
+.footer-subscribe-button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    background-color: var(--button-color);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 370px;
+    bottom: 0px;
+}
+
+.footer-svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.sending-text {
+    /* margin-bottom: 20px;
+    margin-top: -39px; */
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: 70px;
+    left: 0px;
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 0);
+    margin-right: 12px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.sending {
+    width: 571px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
