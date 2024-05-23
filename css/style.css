@@ -639,6 +639,7 @@ body {
 }
 
 .footer-list {
+    width: 231px;
     margin-right: 70px;
 }
 
@@ -736,12 +737,14 @@ body {
     position: absolute;
     left: 370px;
     bottom: 0px;
+    cursor: pointer;
 }
 
 .footer-svg {
     width: 24px;
     height: 24px;
     fill: #fff;
+    margin-left: 10px;
 }
 
 .sending-text {
