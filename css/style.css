@@ -216,6 +216,9 @@ body {
     padding: 15px;
     background-color: #fff;
     transform: translate(-50%, -50%);
+    margin-top: 8px;
+    margin-bottom: 40px;
+
 }
 
 .modal .btn {
@@ -262,6 +265,7 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--text-color);
+    margin-bottom: 12px;
 }
 
 .close-button {
@@ -274,6 +278,15 @@ body {
 
 .modal-span {
     text-decoration: underline;
+}
+
+.modal-form {
+    outline: red 1px solid;
+}
+
+.send-div {
+    outline: red 1px solid;
+    width: 448px;
 }
 
 .ourwork-list {
