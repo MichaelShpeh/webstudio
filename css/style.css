@@ -235,12 +235,51 @@ body {
     color: #757575;
 }
 
+.modal-label:nth-child(1) {
+    /* position: absolute;
+    left: 0px;
+    top: 0px; */
+    margin-bottom: 4px;
+}
+
+.modal-label:nth-child(2) {
+    /* position: absolute;
+    left: 0px;
+    top: 68px; */
+    margin-bottom: 4px;
+}
+
+.modal-label:nth-child(3) {
+    /* position: absolute;
+    left: 0px;
+    top: 136px; */
+    margin-bottom: 4px;
+}
+
 .modal-input {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     width: 448px;
     height: 40px;
 }
+
+/* .modal-input:nth-child(1) {
+    position: absolute;
+    left: 0px;
+    bottom: 1px;
+}
+
+.modal-input:nth-child(2) {
+    position: absolute;
+    left: 0px;
+    top: 86px;
+}
+
+.modal-input:nth-child(3) {
+    position: absolute;
+    left: 0px;
+    top: 106px;
+} */
 
 .modal-send-button {
     border-radius: 4px;
@@ -280,11 +319,23 @@ body {
     text-decoration: underline;
 }
 
+.modal-checkbox {
+    position: absolute;
+}
+
+.checkbox-label {
+    position: absolute;
+}
+
 .modal-form {
+    position: relative;
     outline: red 1px solid;
+    width: 448px;
+    margin: 0 auto;
 }
 
 .send-div {
+    position: relative;
     outline: red 1px solid;
     width: 448px;
 }
