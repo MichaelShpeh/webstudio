@@ -233,27 +233,15 @@ body {
     font-size: 12px;
     letter-spacing: 0.01em;
     color: #757575;
-}
-
-.modal-label:nth-child(1) {
-    /* position: absolute;
-    left: 0px;
-    top: 0px; */
     margin-bottom: 4px;
 }
 
-.modal-label:nth-child(2) {
-    /* position: absolute;
-    left: 0px;
-    top: 68px; */
-    margin-bottom: 4px;
-}
-
-.modal-label:nth-child(3) {
-    /* position: absolute;
-    left: 0px;
-    top: 136px; */
-    margin-bottom: 4px;
+.modal-coments {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 448px;
+    height: 120px;
+    margin-bottom: 20px;
 }
 
 .modal-input {
@@ -261,25 +249,8 @@ body {
     border-radius: 4px;
     width: 448px;
     height: 40px;
+    margin-bottom: 10px;
 }
-
-/* .modal-input:nth-child(1) {
-    position: absolute;
-    left: 0px;
-    bottom: 1px;
-}
-
-.modal-input:nth-child(2) {
-    position: absolute;
-    left: 0px;
-    top: 86px;
-}
-
-.modal-input:nth-child(3) {
-    position: absolute;
-    left: 0px;
-    top: 106px;
-} */
 
 .modal-send-button {
     border-radius: 4px;
@@ -293,8 +264,9 @@ body {
     font-size: 16px;
     line-height: 187%;
     letter-spacing: 0.06em;
-    text-align: center;
     color: #fff;
+    display: block;
+    margin: 0 auto;
 }
 
 .modal-text {
@@ -317,25 +289,31 @@ body {
 
 .modal-span {
     text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #2196f3;
 }
 
 .modal-checkbox {
-    position: absolute;
+    margin-left: 12px;
+    margin-bottom: 30px;
 }
 
 .checkbox-label {
-    position: absolute;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 .modal-form {
-    position: relative;
     outline: red 1px solid;
     width: 448px;
     margin: 0 auto;
 }
 
 .send-div {
-    position: relative;
     outline: red 1px solid;
     width: 448px;
 }
