@@ -229,17 +229,14 @@ body {
 
 .modal-div-username {
     position: relative;
-    outline: 1px dashed blue;
 }
 
 .modal-div-userphone {
     position: relative;
-    outline: 1px dashed yellow;
 }
 
 .modal-div-usermail {
     position: relative;
-    outline: 1px dashed purple;
 }
 
 .modal-svg {
@@ -343,14 +340,8 @@ body {
 }
 
 .modal-form {
-    outline: red 1px solid;
     width: 448px;
     margin: 0 auto;
-}
-
-.send-div {
-    outline: red 1px solid;
-    width: 448px;
 }
 
 .ourwork-list {
