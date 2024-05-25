@@ -231,7 +231,7 @@ body {
     position: relative;
 }
 
-.modal-div-username:hover {
+.modal-div-username:focus {
     fill: var(--button-color);
     cursor: pointer;
 }
@@ -240,7 +240,7 @@ body {
     position: relative;
 }
 
-.modal-div-userphone:hover {
+.modal-div-userphone:focus {
     fill: var(--button-color);
     cursor: pointer;
 }
@@ -249,7 +249,7 @@ body {
     position: relative;
 }
 
-.modal-div-usermail:hover {
+.modal-div-usermail:focus {
     fill: var(--button-color);
     cursor: pointer;
 }
@@ -299,7 +299,7 @@ body {
     margin-bottom: 10px;
 }
 
-.modal-input:hover {
+.modal-input:focus {
     border: solid 1px var(--button-color);
 }
 
