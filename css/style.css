@@ -227,6 +227,18 @@ body {
     right: 10px;
 }
 
+.modal-div-username {
+    position: relative;
+}
+
+.modal-div-userphone {
+    position: relative;
+}
+
+.modal-div-usermail {
+    position: relative;
+}
+
 .modal-label {
     font-family: var(--font-family);
     font-weight: 400;
