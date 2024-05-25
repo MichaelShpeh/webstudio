@@ -231,12 +231,27 @@ body {
     position: relative;
 }
 
+.modal-div-username:hover {
+    fill: var(--button-color);
+    cursor: pointer;
+}
+
 .modal-div-userphone {
     position: relative;
 }
 
+.modal-div-userphone:hover {
+    fill: var(--button-color);
+    cursor: pointer;
+}
+
 .modal-div-usermail {
     position: relative;
+}
+
+.modal-div-usermail:hover {
+    fill: var(--button-color);
+    cursor: pointer;
 }
 
 .modal-svg {
@@ -284,6 +299,10 @@ body {
     margin-bottom: 10px;
 }
 
+.modal-input:hover {
+    border: solid 1px var(--button-color);
+}
+
 .modal-send-button {
     border-radius: 4px;
     width: 200px;
@@ -299,6 +318,7 @@ body {
     color: #fff;
     display: block;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .modal-text {
@@ -311,12 +331,23 @@ body {
     margin-bottom: 12px;
 }
 
-.close-button {
-    border-radius: 50%;
-    border: none;
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.close-button {
+    width: 11px;
+    height: 11px;
+}
+
+.btn:hover {
+    fill: var(--button-color);
 }
 
 .modal-span {
