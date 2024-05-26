@@ -341,11 +341,6 @@ body {
     cursor: pointer;
 }
 
-.close-button {
-    width: 11px;
-    height: 11px;
-}
-
 .btn:hover {
     fill: var(--button-color);
 }
