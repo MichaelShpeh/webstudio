@@ -130,8 +130,24 @@ body {
 }
 
 .active-link {
-    color: var(--button-color)
+    color: var(--button-color);
+    position: relative;
 }
+
+.active-link::after {
+    width: 100%;
+    height: 4px;
+    content: "";
+    position: absolute;
+    bottom: -33px;
+    border-radius: 2px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--button-color);
+    display: block;
+}
+
 
 /*? main */
 
@@ -725,6 +741,31 @@ body {
 
 .works-list-item:hover {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-overlay-box {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 63px 24px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background: rgba(33, 150, 243, 0.9);
+
+}
+
+.works-list-item:hover .card-text {
+    transform: translateY(-100%);
 }
 
 .footer-logo-white {
