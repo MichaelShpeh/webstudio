@@ -8,8 +8,10 @@
 }
 
 body {
+    /* position: relative; */
     font-family: "Roboto";
     box-sizing: border-box;
+    padding-top: 80px;
 }
 
 .conteiner {
@@ -24,6 +26,10 @@ body {
     background: #fff;
     padding-top: 24px;
     padding-bottom: 25px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .head {
