@@ -132,6 +132,9 @@ body {
 .active-link {
     color: var(--button-color);
     position: relative;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active-link::after {
@@ -779,7 +782,7 @@ body {
     letter-spacing: 0.03em;
     color: #fff;
     background: rgba(33, 150, 243, 0.9);
-    transition-property: color;
+    transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -871,6 +874,9 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-item:hover {
