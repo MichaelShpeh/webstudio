@@ -782,7 +782,8 @@ body {
     letter-spacing: 0.03em;
     color: #fff;
     background: rgba(33, 150, 243, 0.9);
-    transition-property: transform;
+    opacity: 0;
+    transition-property: transform, opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -790,6 +791,7 @@ body {
 
 .works-list-item:hover .card-text {
     transform: translateY(-100%);
+    opacity: 1;
 }
 
 .footer-logo-white {
