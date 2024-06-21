@@ -232,6 +232,10 @@ body {
     overflow: hidden;
 }
 
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
 .modal {
     position: absolute;
     top: 50%;
@@ -241,9 +245,11 @@ body {
     border-radius: 4px;
     padding: 40px;
     background-color: #fff;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal .btn {
