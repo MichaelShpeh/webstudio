@@ -206,6 +206,26 @@ body {
     border: none;
     padding: 10px 32px;
     cursor: pointer;
+    scale: 1;
+    animation-name: move-of-button;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes move-of-button {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.1;
+    }
+
+    100% {
+        scale: 1;
+    }
 }
 
 .hero-button:active {
